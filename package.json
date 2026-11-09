@@ -1,0 +1,40 @@
+{
+  "name": "ai-zero-to-one",
+  "version": "1.0.0",
+  "description": "Transform an AI novice into an autonomous AI agent operator. Tough professor persona that demands autonomy, not compliance.",
+  "main": "SKILL.md",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-skill.js",
+    "package": "node scripts/package-skill.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "ai",
+    "onboarding",
+    "agents",
+    "autonomy",
+    "skill",
+    "opencode",
+    "claude-code"
+  ],
+  "author": "Built for Nicolas — Happy Birthday! 🎂",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-github/ai-zero-to-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-github/ai-zero-to-one/issues"
+  },
+  "homepage": "https://github.com/your-github/ai-zero-to-one#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "SKILL.md",
+    "references/",
+    "assets/",
+    "scripts/"
+  ]
+}
